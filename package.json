@@ -1,0 +1,26 @@
+{
+    "name": "cv-game",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "cvTemplate": "0.1.0",
+    "bin": {
+        "create-cv-game": "tools/setup.mjs"
+    },
+    "files": [
+        "tools/setup.mjs"
+    ],
+    "scripts": {
+        "setup": "node tools/setup.mjs --here",
+        "dev": "vite",
+        "build": "tsc --noEmit && vite build",
+        "preview": "vite preview",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "lil-gui": "^0.20.0",
+        "phaser": "^3.90.0",
+        "typescript": "~5.7.2",
+        "vite": "^6.3.1"
+    }
+}

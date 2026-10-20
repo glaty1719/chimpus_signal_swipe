@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "hooks": {
+        "preToolUse": [
+            { "command": "node .agents/splash-lock/splash-lock.mjs guard cursor" }
+        ],
+        "beforeShellExecution": [
+            { "command": "node .agents/splash-lock/splash-lock.mjs guard cursor-shell" }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Builds (built locally and handed over for upload, never committed)
+dist/
+dist*.zip
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local env and caches
+.env
+.env.*
+!.env.example
+.vite/
+.cache/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# Splash lock: a developer unlock is local and temporary, never committed
+.splash-unlock
+
+# Personal daily log, local only
+daily-log.md

@@ -1,0 +1,12 @@
+{
+    "hooks": {
+        "PreToolUse": [
+            {
+                "matcher": "*",
+                "hooks": [
+                    { "type": "command", "command": "node \"$(git rev-parse --show-toplevel)/.agents/splash-lock/splash-lock.mjs\" guard codex" }
+                ]
+            }
+        ]
+    }
+}

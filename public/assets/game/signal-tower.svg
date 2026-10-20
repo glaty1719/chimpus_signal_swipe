@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <!-- Sky & Atmosphere -->
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#040914"/>
+      <stop offset="35%" stop-color="#091428"/>
+      <stop offset="65%" stop-color="#14213d"/>
+      <stop offset="85%" stop-color="#242c4c"/>
+      <stop offset="100%" stop-color="#3d2a45"/>
+    </linearGradient>
+
+    <!-- Sunset Horizon Glow -->
+    <radialGradient id="horizonGlow" cx="50%" cy="65%" r="60%">
+      <stop offset="0%" stop-color="#ff7b54" stop-opacity="0.35"/>
+      <stop offset="30%" stop-color="#a44572" stop-opacity="0.2"/>
+      <stop offset="70%" stop-color="#091428" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Metallic Control Room Floor -->
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1b2f"/>
+      <stop offset="25%" stop-color="#0a1322"/>
+      <stop offset="70%" stop-color="#050a12"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </linearGradient>
+
+    <!-- Brushed Steel Mullion Gradient -->
+    <linearGradient id="metalMullion" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a2b42"/>
+      <stop offset="20%" stop-color="#2f4a6b"/>
+      <stop offset="50%" stop-color="#1e344f"/>
+      <stop offset="80%" stop-color="#142438"/>
+      <stop offset="100%" stop-color="#0d1827"/>
+    </linearGradient>
+
+    <!-- Bulkhead Top Gradient -->
+    <linearGradient id="bulkheadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#080e18"/>
+      <stop offset="70%" stop-color="#132337"/>
+      <stop offset="100%" stop-color="#0a1420"/>
+    </linearGradient>
+
+    <!-- Neon Glows -->
+    <radialGradient id="cyanNeon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#44d9e8" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#44d9e8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#44d9e8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="amberNeon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0b429" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#f0b429" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#f0b429" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="coralNeon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff7a6e" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#ff7a6e" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ff7a6e" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Window Glass Glare -->
+    <linearGradient id="glassGlare" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#44d9e8" stop-opacity="0.06"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="55%" stop-color="#44d9e8" stop-opacity="0"/>
+      <stop offset="75%" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#44d9e8" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="1920" height="720" fill="url(#skyGrad)"/>
+  <rect width="1920" height="720" fill="url(#horizonGlow)"/>
+
+  <!-- Distant Stars & Data Satellites -->
+  <g fill="#ffffff" opacity="0.65">
+    <circle cx="140" cy="80" r="1.5"/><circle cx="280" cy="140" r="1.2"/>
+    <circle cx="480" cy="70" r="1.8"/><circle cx="720" cy="110" r="1"/>
+    <circle cx="890" cy="55" r="1.5"/><circle cx="1120" cy="90" r="1.2"/>
+    <circle cx="1340" cy="65" r="1.6"/><circle cx="1580" cy="120" r="1.4"/>
+    <circle cx="1780" cy="75" r="1.8"/><circle cx="980" cy="130" r="1.2"/>
+    <circle cx="1660" cy="45" r="1.5"/><circle cx="340" cy="50" r="1.3"/>
+  </g>
+
+  <!-- Far Mountain / Distant City Silhouette -->
+  <path d="M0 580 L180 540 L340 560 L520 530 L690 550 L880 520 L1080 545 L1260 525 L1440 555 L1620 530 L1800 550 L1920 535 L1920 680 L0 680 Z" fill="#08101e" opacity="0.7"/>
+
+  <!-- Distant City Layer (Deep Skyline) -->
+  <g fill="#0b172a" stroke="#162945" stroke-width="0.5">
+    <!-- Far buildings left -->
+    <rect x="60" y="440" width="70" height="240"/>
+    <rect x="145" y="410" width="85" height="270"/>
+    <rect x="240" y="460" width="60" height="220"/>
+    <rect x="310" y="380" width="95" height="300"/>
+    <rect x="420" y="430" width="75" height="250"/>
+    <rect x="510" y="470" width="90" height="210"/>
+
+    <!-- Far buildings center -->
+    <rect x="740" y="450" width="80" height="230"/>
+    <rect x="830" y="390" width="110" height="290"/>
+    <rect x="955" y="360" width="90" height="320"/>
+    <rect x="1060" y="420" width="85" height="260"/>
+    <rect x="1160" y="460" width="95" height="220"/>
+
+    <!-- Far buildings right -->
+    <rect x="1350" y="430" width="85" height="250"/>
+    <rect x="1450" y="370" width="95" height="310"/>
+    <rect x="1560" y="440" width="75" height="240"/>
+    <rect x="1650" y="400" width="90" height="280"/>
+    <rect x="1760" y="450" width="110" height="230"/>
+  </g>
+
+  <!-- Midground Detailed Skyscrapers -->
+  <g fill="#101f36" stroke="#223b5d" stroke-width="1">
+    <!-- Left towers -->
+    <rect x="90" y="360" width="110" height="320" rx="2"/>
+    <path d="M125 360 L145 310 L165 360 Z" fill="#182c4a"/>
+    <line x1="145" y1="310" x2="145" y2="260" stroke="#ff4757" stroke-width="2"/>
+    <circle cx="145" cy="260" r="3" fill="#ff4757"/>
+
+    <rect x="215" y="320" width="125" height="360" rx="3"/>
+    <rect x="355" y="400" width="115" height="280" rx="2"/>
+
+    <!-- Right towers -->
+    <rect x="1420" y="340" width="120" height="340" rx="3"/>
+    <path d="M1460 340 L1480 290 L1500 340 Z" fill="#182c4a"/>
+    <line x1="1480" y1="290" x2="1480" y2="240" stroke="#ff4757" stroke-width="2"/>
+    <circle cx="1480" cy="240" r="3" fill="#ff4757"/>
+
+    <rect x="1555" y="310" width="130" height="370" rx="3"/>
+    <rect x="1700" y="380" width="120" height="300" rx="2"/>
+  </g>
+
+  <!-- City Skyline Windows & Neon Signage Matrix -->
+  <!-- Cyan office windows -->
+  <g fill="#44d9e8" opacity="0.75">
+    <!-- Left tower windows -->
+    <rect x="110" y="380" width="12" height="6" rx="1"/><rect x="130" y="380" width="12" height="6" rx="1"/><rect x="160" y="380" width="12" height="6" rx="1"/>
+    <rect x="110" y="400" width="12" height="6" rx="1"/><rect x="145" y="400" width="12" height="6" rx="1"/><rect x="165" y="400" width="12" height="6" rx="1"/>
+    <rect x="120" y="420" width="12" height="6" rx="1"/><rect x="140" y="420" width="12" height="6" rx="1"/><rect x="170" y="420" width="12" height="6" rx="1"/>
+    <rect x="110" y="450" width="12" height="6" rx="1"/><rect x="135" y="450" width="12" height="6" rx="1"/><rect x="160" y="450" width="12" height="6" rx="1"/>
+    <rect x="125" y="480" width="12" height="6" rx="1"/><rect x="150" y="480" width="12" height="6" rx="1"/><rect x="175" y="480" width="12" height="6" rx="1"/>
+
+    <rect x="235" y="340" width="14" height="8" rx="1"/><rect x="260" y="340" width="14" height="8" rx="1"/><rect x="290" y="340" width="14" height="8" rx="1"/>
+    <rect x="235" y="370" width="14" height="8" rx="1"/><rect x="265" y="370" width="14" height="8" rx="1"/><rect x="300" y="370" width="14" height="8" rx="1"/>
+    <rect x="245" y="410" width="14" height="8" rx="1"/><rect x="275" y="410" width="14" height="8" rx="1"/><rect x="305" y="410" width="14" height="8" rx="1"/>
+    <rect x="235" y="450" width="14" height="8" rx="1"/><rect x="265" y="450" width="14" height="8" rx="1"/><rect x="295" y="450" width="14" height="8" rx="1"/>
+
+    <!-- Right tower windows -->
+    <rect x="1440" y="360" width="14" height="8" rx="1"/><rect x="1470" y="360" width="14" height="8" rx="1"/><rect x="1500" y="360" width="14" height="8" rx="1"/>
+    <rect x="1450" y="390" width="14" height="8" rx="1"/><rect x="1480" y="390" width="14" height="8" rx="1"/><rect x="1510" y="390" width="14" height="8" rx="1"/>
+    <rect x="1440" y="430" width="14" height="8" rx="1"/><rect x="1470" y="430" width="14" height="8" rx="1"/><rect x="1500" y="430" width="14" height="8" rx="1"/>
+
+    <rect x="1580" y="335" width="14" height="8" rx="1"/><rect x="1610" y="335" width="14" height="8" rx="1"/><rect x="1645" y="335" width="14" height="8" rx="1"/>
+    <rect x="1590" y="365" width="14" height="8" rx="1"/><rect x="1625" y="365" width="14" height="8" rx="1"/><rect x="1655" y="365" width="14" height="8" rx="1"/>
+    <rect x="1580" y="405" width="14" height="8" rx="1"/><rect x="1615" y="405" width="14" height="8" rx="1"/><rect x="1645" y="405" width="14" height="8" rx="1"/>
+  </g>
+
+  <!-- Warm Amber / Gold Windows -->
+  <g fill="#f0b429" opacity="0.8">
+    <rect x="375" y="420" width="14" height="7" rx="1"/><rect x="405" y="420" width="14" height="7" rx="1"/><rect x="435" y="420" width="14" height="7" rx="1"/>
+    <rect x="385" y="450" width="14" height="7" rx="1"/><rect x="415" y="450" width="14" height="7" rx="1"/><rect x="445" y="450" width="14" height="7" rx="1"/>
+    <rect x="375" y="480" width="14" height="7" rx="1"/><rect x="420" y="480" width="14" height="7" rx="1"/>
+
+    <rect x="1720" y="400" width="12" height="6" rx="1"/><rect x="1750" y="400" width="12" height="6" rx="1"/><rect x="1780" y="400" width="12" height="6" rx="1"/>
+    <rect x="1730" y="430" width="12" height="6" rx="1"/><rect x="1765" y="430" width="12" height="6" rx="1"/><rect x="1790" y="430" width="12" height="6" rx="1"/>
+    <rect x="1720" y="470" width="12" height="6" rx="1"/><rect x="1750" y="470" width="12" height="6" rx="1"/>
+  </g>
+
+  <!-- Central Great Tower (Signal Relay Spire) -->
+  <g>
+    <!-- Tower Body -->
+    <path d="M900 680 L925 320 L945 220 L955 140 L965 140 L975 220 L995 320 L1020 680 Z" fill="#142640" stroke="#2b4a73" stroke-width="1.5"/>
+    <!-- Tower Core Glow -->
+    <line x1="960" y1="160" x2="960" y2="600" stroke="#44d9e8" stroke-width="4" opacity="0.6"/>
+    <!-- Cross Bracing & Platforms -->
+    <line x1="920" y1="360" x2="1000" y2="360" stroke="#36d9e9" stroke-width="2" opacity="0.8"/>
+    <line x1="935" y1="260" x2="985" y2="260" stroke="#36d9e9" stroke-width="2" opacity="0.8"/>
+    <line x1="945" y1="190" x2="975" y2="190" stroke="#36d9e9" stroke-width="2" opacity="0.8"/>
+    <!-- Top Beacon -->
+    <circle cx="960" cy="135" r="5" fill="#ffffff"/>
+    <circle cx="960" cy="135" r="14" fill="#44d9e8" opacity="0.4"/>
+  </g>
+
+  <!-- Sky Traffic & Transit Beams -->
+  <g opacity="0.45">
+    <path d="M0 500 Q 480 440, 960 480 T 1920 460" fill="none" stroke="#44d9e8" stroke-width="1.5" stroke-dasharray="8 12"/>
+    <path d="M0 530 Q 520 490, 1020 520 T 1920 490" fill="none" stroke="#f0b429" stroke-width="1" stroke-dasharray="6 14"/>
+  </g>
+
+  <!-- CONTROL ROOM INTERIOR FOREGROUND -->
+
+  <!-- Atmospheric Glow from Channels & Terminal Stations -->
+  <rect x="0" y="0" width="1920" height="1080" fill="url(#cyanNeon)" opacity="0.5"/>
+  <circle cx="280" cy="540" r="380" fill="url(#amberNeon)"/>
+  <circle cx="1640" cy="540" r="380" fill="url(#cyanNeon)"/>
+  <circle cx="960" cy="980" r="420" fill="url(#coralNeon)"/>
+
+  <!-- Window Glass Pane Reflection & Glare Overlay -->
+  <rect x="0" y="0" width="1920" height="680" fill="url(#glassGlare)"/>
+
+  <!-- High-Tech Ceiling Bulkhead / Structural Truss -->
+  <g>
+    <!-- Main top beam -->
+    <path d="M0 0 L1920 0 L1920 85 L1600 95 L960 105 L320 95 L0 85 Z" fill="url(#bulkheadGrad)"/>
+    <path d="M0 85 L320 95 L960 105 L1600 95 L1920 85" fill="none" stroke="#2a456c" stroke-width="3"/>
+    <path d="M0 88 L320 98 L960 108 L1600 98 L1920 88" fill="none" stroke="#44d9e8" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Downlight fixtures in bulkhead -->
+    <g fill="#44d9e8" opacity="0.8">
+      <rect x="360" y="78" width="60" height="6" rx="2"/>
+      <rect x="660" y="86" width="60" height="6" rx="2"/>
+      <rect x="930" y="94" width="60" height="6" rx="2"/>
+      <rect x="1200" y="86" width="60" height="6" rx="2"/>
+      <rect x="1500" y="78" width="60" height="6" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Heavy Architectural Window Frame Mullions (Futuristic Control Room Arch) -->
+  <g fill="url(#metalMullion)" stroke="#091322" stroke-width="2">
+    <!-- Left vertical structural pillar -->
+    <polygon points="0,0 210,0 180,680 0,680"/>
+    <!-- Right vertical structural pillar -->
+    <polygon points="1710,0 1920,0 1920,680 1740,680"/>
+
+    <!-- Left intermediate angled rib -->
+    <polygon points="560,95 605,96 525,680 475,680"/>
+    <!-- Right intermediate angled rib -->
+    <polygon points="1315,96 1360,95 1445,680 1395,680"/>
+
+    <!-- Center vertical support dividers -->
+    <polygon points="950,105 970,105 972,680 948,680"/>
+  </g>
+
+  <!-- Pillar Accent LED Strips -->
+  <g>
+    <line x1="185" y1="0" x2="160" y2="680" stroke="#f0b429" stroke-width="2.5" opacity="0.7"/>
+    <line x1="1735" y1="0" x2="1760" y2="680" stroke="#44d9e8" stroke-width="2.5" opacity="0.7"/>
+    <line x1="500" y1="95" x2="455" y2="680" stroke="#3ad7e6" stroke-width="1.5" opacity="0.4"/>
+    <line x1="1340" y1="95" x2="1385" y2="680" stroke="#3ad7e6" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- Polished Metallic Reflective Floor -->
+  <g>
+    <rect x="0" y="670" width="1920" height="410" fill="url(#floorGrad)"/>
+    <!-- Horizon Horizon Sill Line -->
+    <line x1="0" y1="670" x2="1920" y2="670" stroke="#38547b" stroke-width="5"/>
+    <line x1="0" y1="672" x2="1920" y2="672" stroke="#44d9e8" stroke-width="2" opacity="0.8"/>
+
+    <!-- Floor Perspective Grid / Radar Sweep Pattern -->
+    <g fill="none" stroke="#44d9e8" stroke-opacity="0.18" stroke-width="1.5">
+      <!-- Perspective radial floor seams -->
+      <line x1="960" y1="670" x2="100" y2="1080"/>
+      <line x1="960" y1="670" x2="480" y2="1080"/>
+      <line x1="960" y1="670" x2="800" y2="1080"/>
+      <line x1="960" y1="670" x2="960" y2="1080"/>
+      <line x1="960" y1="670" x2="1120" y2="1080"/>
+      <line x1="960" y1="670" x2="1440" y2="1080"/>
+      <line x1="960" y1="670" x2="1820" y2="1080"/>
+
+      <!-- Concentric floor radar rings -->
+      <ellipse cx="960" cy="740" rx="380" ry="38"/>
+      <ellipse cx="960" cy="830" rx="640" ry="64"/>
+      <ellipse cx="960" cy="940" rx="920" ry="92"/>
+    </g>
+
+    <!-- Concentric High-Tech Center Radar Ring on Floor -->
+    <ellipse cx="960" cy="850" rx="420" ry="52" fill="none" stroke="#44d9e8" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="12 8"/>
+    <ellipse cx="960" cy="850" rx="260" ry="32" fill="none" stroke="#f0b429" stroke-width="1.5" stroke-opacity="0.25" stroke-dasharray="6 6"/>
+
+    <!-- Optical Data Conduit Cables Running Across Floor to Bays -->
+    <g fill="none" stroke-linecap="round">
+      <!-- Amber cable left -->
+      <path d="M860 880 C 720 900, 480 870, 260 760" stroke="#f0b429" stroke-width="5" opacity="0.5"/>
+      <path d="M860 880 C 720 900, 480 870, 260 760" stroke="#fff" stroke-width="1.5" opacity="0.7" stroke-dasharray="8 20"/>
+
+      <!-- Cyan cable right -->
+      <path d="M1060 880 C 1200 900, 1440 870, 1660 760" stroke="#44d9e8" stroke-width="5" opacity="0.5"/>
+      <path d="M1060 880 C 1200 900, 1440 870, 1660 760" stroke="#fff" stroke-width="1.5" opacity="0.7" stroke-dasharray="8 20"/>
+
+      <!-- Coral cable bottom -->
+      <path d="M960 870 L 960 980" stroke="#ff7a6e" stroke-width="6" opacity="0.5"/>
+      <path d="M960 870 L 960 980" stroke="#fff" stroke-width="2" opacity="0.8" stroke-dasharray="6 12"/>
+    </g>
+  </g>
+</svg>
+
