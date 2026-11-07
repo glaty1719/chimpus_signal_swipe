@@ -1,5 +1,0 @@
-[
-  { "id": 1, "title": "Warm-Up Signals", "signalIds": ["face-unlock", "voice-assistant", "video-recommendations", "photo-face-groups", "microwave-timer", "automatic-door", "washing-cycle", "streetlight-schedule", "bicycle", "pencil-sharpener", "paper-map", "hand-fan"], "driftSpeed": 0 },
-  { "id": 2, "title": "Hidden Signals", "signalIds": ["spam-filter", "next-word-prediction", "map-arrival-time", "shop-recommendations", "translation-app", "calculator", "phone-alarm", "vending-machine", "timed-traffic-light", "flashlight-switch", "paper-dictionary"], "driftSpeed": 0.25 },
-  { "id": 3, "title": "Same Device, Different Feature", "signalIds": ["speaker-voice-recognition", "speaker-volume-button", "thermostat-schedule", "thermostat-learning", "game-scripted-enemy", "game-adaptive-difficulty", "camera-auto-flash", "camera-portrait-blur", "car-cruise-control", "car-lane-detection"], "driftSpeed": 0.5 }
-]

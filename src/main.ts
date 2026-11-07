@@ -1,6 +1,7 @@
-import { startGame } from './core';
-import { gameConfig } from './game/game.config';
+import StartGame from './game/main';
 
 document.addEventListener('DOMContentLoaded', () => {
-    startGame(gameConfig);
+
+    StartGame();
+
 });

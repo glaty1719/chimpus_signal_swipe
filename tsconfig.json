@@ -3,19 +3,27 @@
         "target": "ES2020",
         "useDefineForClassFields": true,
         "module": "ESNext",
-        "lib": ["ES2020", "DOM", "DOM.Iterable"],
-        "types": ["vite/client"],
+        "lib": [
+            "ES2020",
+            "DOM",
+            "DOM.Iterable"
+        ],
         "skipLibCheck": true,
+        /* Bundler mode */
         "moduleResolution": "bundler",
-        "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
         "isolatedModules": true,
         "moduleDetection": "force",
         "noEmit": true,
-        "strict": true,
+        /* Linting */
         "strictPropertyInitialization": false,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true
+        "strict": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedSideEffectImports": true
     },
-    "include": ["src", "content", "tuning.json"]
+    "include": [
+        "src"
+    ]
 }

@@ -1,0 +1,381 @@
+{
+  "categories": {
+    "AI": {
+      "id": "AI",
+      "label": "AI Feature",
+      "action": "Learns from Data",
+      "direction": "RIGHT",
+      "color": "#00e5ff",
+      "symbol": "\u2728",
+      "chipText": "Learns from data"
+    },
+    "AUTOMATION": {
+      "id": "AUTOMATION",
+      "label": "Fixed Automation",
+      "action": "Follows Fixed Rules",
+      "direction": "LEFT",
+      "color": "#ffb300",
+      "symbol": "\u2699\ufe0f",
+      "chipText": "Follows a fixed rule"
+    },
+    "MANUAL": {
+      "id": "MANUAL",
+      "label": "Manual Tool",
+      "action": "Person Operated",
+      "direction": "DOWN",
+      "color": "#ff6e54",
+      "symbol": "\ud83d\udd90\ufe0f",
+      "chipText": "Needs a person to operate it"
+    }
+  },
+  "levels": [
+    {
+      "level": 1,
+      "title": "Level 1: Warm-Up Signals",
+      "district": "Downtown Alpha",
+      "description": "Clear examples to establish the three categories.",
+      "cards": [
+        {
+          "id": "l1_ai_1",
+          "title": "Face Unlock",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns facial patterns from camera data to verify your identity.",
+          "icon": "\ud83d\udcf1",
+          "level": 1
+        },
+        {
+          "id": "l1_ai_2",
+          "title": "Voice Assistant",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns speech patterns to recognize words and answer questions.",
+          "icon": "\ud83c\udf99\ufe0f",
+          "level": 1
+        },
+        {
+          "id": "l1_ai_3",
+          "title": "Video Recommendations",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns your viewing habits and patterns from what you watch.",
+          "icon": "\u25b6\ufe0f",
+          "level": 1
+        },
+        {
+          "id": "l1_ai_4",
+          "title": "Photo App Face Grouping",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns and recognizes visual patterns to group similar faces together.",
+          "icon": "\ud83d\uddbc\ufe0f",
+          "level": 1
+        },
+        {
+          "id": "l1_auto_1",
+          "title": "Microwave Timer",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Rule set in advance: counts down the exact minutes or seconds set.",
+          "icon": "\u23f2\ufe0f",
+          "level": 1
+        },
+        {
+          "id": "l1_auto_2",
+          "title": "Automatic Door Sensor",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed rule: whenever motion detector triggers, open the door.",
+          "icon": "\ud83d\udeaa",
+          "level": 1
+        },
+        {
+          "id": "l1_auto_3",
+          "title": "Washing Machine Cycle",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed rule: runs a predetermined sequence of wash, rinse, and spin.",
+          "icon": "\ud83e\uddfa",
+          "level": 1
+        },
+        {
+          "id": "l1_auto_4",
+          "title": "Street Light at 6 PM",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed timer: turns on every day at the clock time programmed in advance.",
+          "icon": "\ud83d\udca1",
+          "level": 1
+        },
+        {
+          "id": "l1_man_1",
+          "title": "Bicycle",
+          "category": "MANUAL",
+          "reason": "Needs a person to operate it",
+          "hint": "Does nothing on its own; a person must pedal and steer it.",
+          "icon": "\ud83d\udeb2",
+          "level": 1
+        },
+        {
+          "id": "l1_man_2",
+          "title": "Pencil Sharpener",
+          "category": "MANUAL",
+          "reason": "Needs a person to operate it",
+          "hint": "Manual tool: requires a human hand to insert and twist the pencil.",
+          "icon": "\u270f\ufe0f",
+          "level": 1
+        },
+        {
+          "id": "l1_man_3",
+          "title": "Paper Map",
+          "category": "MANUAL",
+          "reason": "Needs a person to operate it",
+          "hint": "Static paper; a person must read and find the route themselves.",
+          "icon": "\ud83d\uddfa\ufe0f",
+          "level": 1
+        },
+        {
+          "id": "l1_man_4",
+          "title": "Hand Fan",
+          "category": "MANUAL",
+          "reason": "Needs a person to operate it",
+          "hint": "Manual tool: does nothing unless a person waves it back and forth.",
+          "icon": "\ud83e\udead",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Level 2: Hidden Signals",
+      "district": "Tech Harbor",
+      "description": "AI features hidden inside everyday apps.",
+      "cards": [
+        {
+          "id": "l2_ai_1",
+          "title": "Email Spam Filter",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns patterns from millions of messages to spot junk emails.",
+          "icon": "\ud83d\udce7",
+          "level": 2
+        },
+        {
+          "id": "l2_ai_2",
+          "title": "Next-Word Prediction",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns typing habits and grammar patterns to predict words.",
+          "icon": "\u2328\ufe0f",
+          "level": 2
+        },
+        {
+          "id": "l2_ai_3",
+          "title": "Map Arrival Time",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns from live traffic data patterns to estimate arrival time.",
+          "icon": "\ud83d\ude97",
+          "level": 2
+        },
+        {
+          "id": "l2_ai_4",
+          "title": "Shop 'You May Also Like'",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI analyzes shopper purchase data to recommend relevant items.",
+          "icon": "\ud83d\udecd\ufe0f",
+          "level": 2
+        },
+        {
+          "id": "l2_ai_5",
+          "title": "Language Translation App",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns language patterns and context across bilingual texts.",
+          "icon": "\ud83c\udf10",
+          "level": 2
+        },
+        {
+          "id": "l2_auto_1",
+          "title": "Calculator App",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed rule: applies predetermined mathematical arithmetic rules.",
+          "icon": "\ud83d\udd22",
+          "level": 2
+        },
+        {
+          "id": "l2_auto_2",
+          "title": "Phone Alarm Clock",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed timer: triggers sound when the clock matches the scheduled hour.",
+          "icon": "\u23f0",
+          "level": 2
+        },
+        {
+          "id": "l2_auto_3",
+          "title": "Vending Machine",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed rule: if inserted money matches price, dispense chosen snack.",
+          "icon": "\ud83e\udd64",
+          "level": 2
+        },
+        {
+          "id": "l2_auto_4",
+          "title": "Fixed Timer Traffic Light",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed timer: switches red, yellow, green on a programmed clock loop.",
+          "icon": "\ud83d\udea6",
+          "level": 2
+        },
+        {
+          "id": "l2_man_1",
+          "title": "Flashlight Switch",
+          "category": "MANUAL",
+          "reason": "Needs a person to operate it",
+          "hint": "Manual tool: simply opens or closes an electrical contact when clicked.",
+          "icon": "\ud83d\udd26",
+          "level": 2
+        },
+        {
+          "id": "l2_man_2",
+          "title": "Paper Dictionary",
+          "category": "MANUAL",
+          "reason": "Needs a person to operate it",
+          "hint": "Manual tool: printed book requiring a human to flip pages and search.",
+          "icon": "\ud83d\udcd6",
+          "level": 2
+        },
+        {
+          "id": "l2_man_3",
+          "title": "Scissors",
+          "category": "MANUAL",
+          "reason": "Needs a person to operate it",
+          "hint": "Manual tool: two blades joined by a pivot that require hands to cut.",
+          "icon": "\u2702\ufe0f",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Level 3: Same Device, Different Feature",
+      "district": "Neon Boulevard",
+      "description": "Look at the feature, not the whole device!",
+      "cards": [
+        {
+          "id": "l3_pair1_ai",
+          "title": "Speaker: Voice Recognition",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns acoustic patterns to recognize who is speaking.",
+          "icon": "\ud83d\udd0a",
+          "level": 3
+        },
+        {
+          "id": "l3_pair1_man",
+          "title": "Speaker: Volume Button",
+          "category": "MANUAL",
+          "reason": "Needs a person to operate it",
+          "hint": "Manual control: does nothing until a human finger presses it.",
+          "icon": "\ud83d\udd18",
+          "level": 3
+        },
+        {
+          "id": "l3_pair2_ai",
+          "title": "Thermostat: Learns Schedule",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns your living habits and presence patterns to adjust heat.",
+          "icon": "\ud83c\udf21\ufe0f",
+          "level": 3
+        },
+        {
+          "id": "l3_pair2_auto",
+          "title": "Thermostat: Fixed Timer",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed rule: changes temperature at the exact programmed clock hours.",
+          "icon": "\ud83d\udcc5",
+          "level": 3
+        },
+        {
+          "id": "l3_pair3_ai",
+          "title": "Game: Adapting Difficulty",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns from player skill data and adapts the gameplay challenge.",
+          "icon": "\ud83c\udfae",
+          "level": 3
+        },
+        {
+          "id": "l3_pair3_auto",
+          "title": "Game: Scripted Enemy Path",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed rule: enemy patrols a hard-coded path regardless of player data.",
+          "icon": "\ud83d\udc7e",
+          "level": 3
+        },
+        {
+          "id": "l3_pair4_ai",
+          "title": "Camera: Portrait Blur",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns visual contours from image data to separate subject from background.",
+          "icon": "\ud83d\udcf7",
+          "level": 3
+        },
+        {
+          "id": "l3_pair4_auto",
+          "title": "Camera: Flash in Dark",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed rule: if photo light level is below a threshold, turn on flash.",
+          "icon": "\u26a1",
+          "level": 3
+        },
+        {
+          "id": "l3_pair5_ai",
+          "title": "Car: Lane Detection Camera",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns lane marking patterns from video data to keep car centered.",
+          "icon": "\ud83d\ude98",
+          "level": 3
+        },
+        {
+          "id": "l3_pair5_auto",
+          "title": "Car: Cruise Control Speed",
+          "category": "AUTOMATION",
+          "reason": "Follows a fixed rule",
+          "hint": "Fixed rule: throttle maintains the car at the exact set speed.",
+          "icon": "\u23f1\ufe0f",
+          "level": 3
+        },
+        {
+          "id": "l3_pair6_ai",
+          "title": "Smart TV: Recommendations",
+          "category": "AI",
+          "reason": "Learns from data",
+          "hint": "AI learns your watching preferences from viewing history to recommend shows.",
+          "icon": "\ud83d\udcfa",
+          "level": 3
+        },
+        {
+          "id": "l3_pair6_man",
+          "title": "Smart TV: Remote Power Button",
+          "category": "MANUAL",
+          "reason": "Needs a person to operate it",
+          "hint": "Manual button: sends a simple signal only when a person presses it.",
+          "icon": "\ud83d\udd34",
+          "level": 3
+        }
+      ]
+    }
+  ]
+}
